@@ -78,6 +78,29 @@ button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
 
+table {
+  width: 400px;
+  margin: 0 auto;
+  border-collapse: collapse;
+}
+
+thead {
+  background: #000;
+}
+
+tbody {
+  color: #000;
+  text-transform: capitalize;
+}
+
+tbody tr:nth-child(odd) {
+  background: #fff;
+}
+
+tbody tr:nth-child(even) {
+  background: gray;
+}
+
 @media (prefers-color-scheme: light) {
   :root {
     color: #213547;
